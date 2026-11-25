@@ -1,0 +1,12 @@
+BLACK MACRO MENU v2
+- Lite Foot: sequência configurável (padrão Scroll Down, E, Q, Left Ctrl; 30 ms entre etapas), disparada pelo botão direito do mouse, ao pressionar ou soltar.
+- Correr: enquanto W, A, S ou D estiver pressionada, envia Mouse Wheel Up no intervalo configurável (padrão 321 ms).
+- Menu preto/amarelo; somente duas funções.
+
+Para gerar EXE sem instalar Python no PC:
+1. Envie os arquivos desta pasta para a raiz do repositório GitHub.
+2. Mantenha .github/workflows/build-windows.yml no caminho indicado.
+3. Abra Actions e aguarde o workflow terminar.
+4. Baixe o Artifact BLACK_MACRO_MENU-Windows e extraia o EXE.
+
+Observação: use somente onde macros forem permitidos pelo servidor. Alguns servidores podem bloquear automações.
